@@ -1,0 +1,30 @@
+name: your_project_name
+description: A Flutter project displaying courses with images.
+
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  video_player: ^2.9.2
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/img.png
+    - images/img_1.png
+    - images/img_2.png
+    - videos/v1.mp4
