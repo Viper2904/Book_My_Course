@@ -46,7 +46,7 @@ class _CreateNewCourseState extends State<CreateNewCourse> {
       } else {
         _showMessage("Failed to create course");
       }
-    } catch (error) { 
+    } catch (error) {
       _showMessage("Error creating course. Please try again.");
     }
   }
@@ -113,3 +113,4 @@ class _CreateNewCourseState extends State<CreateNewCourse> {
     );
   }
 }
+
